@@ -1,0 +1,46 @@
+body{
+    background:url("gam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.start{
+    width: 50%;
+    height: 40%;
+    margin-right: auto;
+
+
+}
+#start-btn:hover{
+    background-color: green;
+    color: violet;
+    font-size: 20px;
+    opacity: 0.5;
+    border-color: white;
+}
+#start-btn{
+    width: 10%;
+    height: 10%;
+    border: 2px solid;
+    border-radius: 25px;
+    background-color:orange;
+    font-size: 1em;
+    color: white;
+    opacity: 0.5;
+    top: 35%;
+    left: 40%;
+    position: absolute;
+}
+
+
+.column{
+    float: left;
+    width: 23.33%;
+    padding: 15px;
+}
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
